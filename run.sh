@@ -1,0 +1,1 @@
+/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/bin/java -server -verbose:gc -Xloggc:log/fileprocessor.gc.log -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xmx6g -Xms5g -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseCompressedOops -classpath ./bin:./lib/* terracotta.FilePreprocessorRunner | tee log/fileprocessor.log
